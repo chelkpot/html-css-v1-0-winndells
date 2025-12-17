@@ -1,0 +1,52 @@
+body{
+    background:pink ;
+    color:blue
+}
+h1{
+    color:firebrick
+}
+h2{
+    color:purple
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    Font-size:  14px
+}
+header {
+    background-color: #60049c;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+#unique-element {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.highlight-block {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+#unique-element p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.highlight-block p {
+    color: #856404;
+    margin: 0;
+}
+.parent-element > p {
+    background-color: #d1ecf1;
+    border: 1px solid #bee5eb;
+    padding: 10px;
+    border-radius: 5px;
+    color: #0c5460;
+}
